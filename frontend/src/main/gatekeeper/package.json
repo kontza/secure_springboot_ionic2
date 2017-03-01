@@ -11,6 +11,8 @@
     "postinstall": "ionic platform add browser"
   },
   "dependencies": {
+    "cordova": "~6.5.0",
+    "ionic": "~2.2.1",
     "@angular/common": "2.2.1",
     "@angular/compiler": "2.2.1",
     "@angular/compiler-cli": "2.2.1",
