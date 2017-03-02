@@ -8,7 +8,7 @@
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "postinstall": "ionic platform add browser"
+    "postinstall": "test -d platforms/browser || ionic platform add browser"
   },
   "dependencies": {
     "cordova": "~6.5.0",
